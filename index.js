@@ -18,16 +18,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'tableOfContents',
-        message: 'Please provide a table of contents for your project.',
-    },
-    {
-        type: 'input',
-        name: 'codeRefactorExample',
-        message: 'Please provide an example of code refactoring.',
-    },
-    {
-        type: 'input',
         name: 'installation',
         message: 'Please provide installation instructions for your project.',
     },
@@ -43,8 +33,13 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'authorInfo',
+        message: 'Please provide author information for your project.',
+    },
+    {
+        type: 'input',
         name: 'contributing',
-        message: 'Please provide contribution guidelines for your project.',
+        message: 'Please provide additional contributors for your project.',
     },
     {
         type: 'input',
@@ -56,11 +51,6 @@ const questions = [
         name: 'license',
         message: 'Please choose a license for your project.',
         choices: ['MIT', 'GNU GPLv3', 'Apache 2.0', 'ISC', 'None'],
-    },
-    {
-        type: 'input',
-        name: 'authorInfo',
-        message: 'Please provide author information for your project.',
     },
     {
         type: 'input',
