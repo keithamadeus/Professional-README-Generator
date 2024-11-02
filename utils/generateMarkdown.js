@@ -49,9 +49,10 @@ function generateMarkdown(data) {
 
   ${renderLicenseBadge(data.license)}
 
-  ## Description
-  ${data.deployedLink}
   ${data.repository}
+  ${data.deployedLink}
+  
+  ## Description
   ${data.description}
 
   ## Table of Contents
