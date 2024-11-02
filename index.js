@@ -13,6 +13,16 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'deployedLink',
+        message: 'Please provide Deployed site link.',
+    },
+    {
+        type: 'input',
+        name: 'repository',
+        message: 'Please provide GitHub Repository.',
+    },
+    {
+        type: 'input',
         name: 'description',
         message: 'Please provide a description of your project.',
     },
