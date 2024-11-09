@@ -23,6 +23,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'videoWalkThrough',
+        message: 'Please provide Walk Through Link.',
+    },
+    {
+        type: 'input',
         name: 'description',
         message: 'Please provide a description of your project.',
     },
